@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 def train():
-    file_path = "data/train_data2.csv"
+    file_path = "data/train_data.csv"
     data_raw = pd.read_csv(file_path, encoding='utf-8')
 
     x = data_raw[['employment_status','political','marital_status', 'type', 'upgrade', 'gcnt']]

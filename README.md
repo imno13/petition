@@ -44,3 +44,4 @@ petition : 未来一段时间是否有信访行为
 python train_model.py
 ```
 
+目前预测准确率约 77.21%
